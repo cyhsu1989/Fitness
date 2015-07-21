@@ -13,7 +13,7 @@ body{
 	width: 50%;
 	margin: 40px auto 20px auto;
 	background-color: #ffffff;
-	background-image: url(images/bg_html.jpg);
+	background-image: url(../images/bg_html.jpg);
 	background-repeat: repeat;
 
 
@@ -67,7 +67,7 @@ a{
 }
 .slide-show-text{
 	float: left;
-	width: 305px;
+	width: 309px;
 	height: 415px;
 	line-height: 30px;
 	background-color: #292929;
@@ -151,7 +151,7 @@ h3{
 	font-size: 16px;
 }
 .column2 ul{
-	list-style-image: url("images/icon_03.png");
+	list-style-image: url("../images/icon_03.png");
 	width: 100%;
 	min-height: 180px;
 	
