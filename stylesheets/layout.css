@@ -38,7 +38,20 @@ span{
 }
 .logo{float: left;	width: 171px;}
 
-.icon {	float: right; margin: 0 20px 0 0;}
+
+.icon{	
+	float: right;
+	margin: 0 20px 0 0;
+}
+/*-----------icon的hover效果-----------*/
+.icon img{
+	opacity: 1.0;
+}
+.icon img:hover{
+	opacity: 0.5;
+}
+/*-------------------------------------*/
+
 .nav {
 	float: left;
 	font-size: 16px;
