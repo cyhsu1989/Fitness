@@ -15,6 +15,7 @@ body{
 .wrap{
 	width: 950px;
 	margin: 30px auto;
+	overflow: auto;
 }
 a{
 	color: #01a5ca;	
@@ -211,9 +212,7 @@ h3{
 			Footer
 ------------------------------*/
 #footer {
-	float: left;
 	font-size: 16px;
 	line-height: 30px;
 	text-align: center;
-	width: 100%;
 }
