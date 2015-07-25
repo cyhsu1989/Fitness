@@ -13,9 +13,9 @@ body{
 	font-family: Euphemia, Calibri, Arial;
 }
 .wrap{
-	width: 950px;
 	margin: 30px auto;
 	overflow: auto;
+	width: 950px;
 }
 a{
 	color: #01a5ca;	
