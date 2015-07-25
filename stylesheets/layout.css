@@ -143,9 +143,9 @@ input[type=submit]{border-style: none;	font-family: inherit;}
 }
 .content{
 	background-color: #ffffff;
-	float: left;
 	margin-bottom: 50px;
 	padding: 30px;
+	overflow: auto;
 }
 
 h3{
