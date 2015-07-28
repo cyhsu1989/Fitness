@@ -91,6 +91,13 @@ span{
 	height: 415px;
 	margin: 0 0 40px 0;
 }
+.slide-show-img{
+	cursor: pointer;
+	opacity: 1.0;
+}
+.slide-show-img:hover{
+	opacity: 0.8;
+}
 
 /*-----------SlideShow文字效果-----------*/
 .slide-show-text{
@@ -162,9 +169,14 @@ h3{
 }
 
 .latest-events img{
+	cursor: pointer;
 	float: left;
+	opacity: 1.0;
 	padding-top: 5px;
 	margin-right: 30px;
+}
+.latest-events img:hover{
+	opacity: 0.8;
 }
 .latest-events li{
 	float: left;
