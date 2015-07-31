@@ -11,6 +11,7 @@ body{
 	background-image: url(../images/bg_html.jpg);
 	background-repeat: repeat;
 	font-family: Euphemia, Calibri, Arial;
+	font-size: 16px;
 }
 .wrap{
 	margin: 30px auto;
@@ -55,7 +56,6 @@ span{
 
 .nav {
 	float: left;
-	font-size: 16px;
 	text-align: right;
 	margin: 30px 0px 0px 15px;
 	width: 80%;
@@ -83,6 +83,9 @@ span{
 /*------------------------------
 			Content
 ------------------------------*/
+.slide-show{
+	overflow: auto;
+}
 
 /*-----------SlideShow圖片效果-----------*/
 .slide-show-img{
@@ -118,21 +121,21 @@ span{
 }
 .slide-show-text p{
 	color: #909090;
-	font-size: 16px;
 	line-height: 25px;
 	height: 120px;
-	margin: 0 0 30px 0;
+	margin: 0 0 40px 0;
 	overflow: hidden;
 	padding: 0 40px;
 	text-align: left;
 }
 /*-----------SlideShow按鈕效果-----------*/
-input[type=submit]{border-style: none;	font-family: inherit;}
 .button1{
 	background-color: #3f3f3f;
 	color: #ffffff;
 	cursor: pointer;
+	font-family: inherit;
 	margin: 0 0 0 40px;
+	padding: 10px 22px;
 	width: 120px;
 	height: 40px;
 }
@@ -144,7 +147,6 @@ input[type=submit]{border-style: none;	font-family: inherit;}
 .describe{
 	background-color: #ffffff;
 	clear: left;
-	font-size: 16px;
 	line-height: 30px;
 	margin: 0 0 40px 0;
 	padding: 30px 30px;
@@ -164,7 +166,6 @@ h3{
 /*-----------左邊欄-----------*/
 .column1{
 	float: left;
-	font-size: 16px;
 	width: 70%;
 }
 
@@ -190,7 +191,6 @@ h3{
 /*-----------右邊欄-----------*/
 .column2{
 	float: left;
-	font-size: 16px;
 	width: 30%;
 }
 .column2 ul{
@@ -210,6 +210,7 @@ h3{
 	height: 40px;
 }
 .bottun2{
+	border: none;
 	background-color: #f4f4f4;
 	color: #01a5ca;
 	cursor: pointer;
@@ -224,7 +225,6 @@ h3{
 			Footer
 ------------------------------*/
 #footer {
-	font-size: 16px;
 	line-height: 30px;
 	text-align: center;
 }
