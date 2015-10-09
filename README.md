@@ -1,5 +1,5 @@
 #網頁排版
 
-我第一個練習排版的網頁
+基本版型的網頁
 
-[http://cyhsu9856.github.io/web_homework1](http://cyhsu9856.github.io/web_homework1)
+[http://cyhsu9856.github.io/Fitness](http://cyhsu9856.github.io/Fitness)
